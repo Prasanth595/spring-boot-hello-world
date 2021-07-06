@@ -18,7 +18,7 @@ The application has been built and packaged in a Docker container and published 
 
 #### Clean and Build
 ```
-mvn clean package
+mvn clean -Dmaven.test.skip=true package
 ```
 
 #### Run
