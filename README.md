@@ -43,7 +43,7 @@ mvn package docker:build
 Or
 
 ```
-mvn package docker:build -Dmaven.test.skip=true
+docker build -t hello-world-spring-boot .
 ```
 
 #### Docker Push
