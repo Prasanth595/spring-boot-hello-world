@@ -14,7 +14,7 @@ It has one endpoint which returns a JSON response containing the hostname and IP
 Simply start the app and make a HTTP GET request to http://localhost:8080/ and you will get a JSON response.
 
 ## Docker Build
-The application has been built and packaged in a Docker container and published to DockerHub: https://hub.docker.com/r/kimb88/hello-world-spring-boot/
+The application has been built and packaged in a Docker container and published to DockerHub: https://hub.docker.com/repository/docker/prasanth595/spring-boot-app-kubernetes
 
 ## How To
 
@@ -51,7 +51,7 @@ docker build -t hello-world-spring-boot .
 #### Docker Push
 ```
 docker login
-docker tag hello-world-spring-boot kimb88/hello-world-spring-boot
-docker push kimb88/hello-world-spring-boot
+docker tag hello-world-spring-boot prasanth595/hello-world-spring-boot
+docker push prasanth595/hello-world-spring-boot
 ```
 
