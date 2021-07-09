@@ -1,6 +1,7 @@
 # Spring Boot Hello World API
 
 [![Java CI with Maven](https://github.com/Prasanth595/spring-boot-hello-world/actions/workflows/maven.yml/badge.svg)](https://github.com/Prasanth595/spring-boot-hello-world/actions/workflows/maven.yml)
+[![Docker](https://github.com/Prasanth595/spring-boot-hello-world/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/Prasanth595/spring-boot-hello-world/actions/workflows/docker-publish.yml)
 
 This is a small Spring-Boot Hello World application to demonstrate a quick and simple API.
 
